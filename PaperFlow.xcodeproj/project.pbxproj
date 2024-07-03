@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		44342B722C2A6CC8000A6754 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44342B712C2A6CC8000A6754 /* AppDelegate.swift */; };
-		44342B742C2A6CC8000A6754 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44342B732C2A6CC8000A6754 /* ViewController.swift */; };
 		44342B762C2A6CC9000A6754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44342B752C2A6CC9000A6754 /* Assets.xcassets */; };
 		44342B792C2A6CCA000A6754 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 44342B782C2A6CCA000A6754 /* Base */; };
 		44342B842C2A6CCA000A6754 /* PaperFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44342B832C2A6CCA000A6754 /* PaperFlowTests.swift */; };
 		44342B8E2C2A6CCA000A6754 /* PaperFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44342B8D2C2A6CCA000A6754 /* PaperFlowUITests.swift */; };
 		44342B902C2A6CCA000A6754 /* PaperFlowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44342B8F2C2A6CCA000A6754 /* PaperFlowUITestsLaunchTests.swift */; };
+		44342BA12C2A6CFF000A6754 /* PerferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44342B9C2C2A6CFF000A6754 /* PerferencesView.swift */; };
+		44342BA22C2A6CFF000A6754 /* WallpaperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44342B9D2C2A6CFF000A6754 /* WallpaperView.swift */; };
+		44342BA52C2A6CFF000A6754 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44342BA02C2A6CFF000A6754 /* MainWindowController.swift */; };
+		44342BA82C2A6D9F000A6754 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44342BA72C2A6D9F000A6754 /* ContentViewModel.swift */; };
+		44342BAB2C2A6DA4000A6754 /* GlobalSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44342BA92C2A6DA4000A6754 /* GlobalSettingsViewModel.swift */; };
+		44342BAC2C2A6DA4000A6754 /* WallpaperViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44342BAA2C2A6DA4000A6754 /* WallpaperViewModel.swift */; };
+		444C64E42C33B73600435922 /* pixivswift in Frameworks */ = {isa = PBXBuildFile; productRef = 444C64E32C33B73600435922 /* pixivswift */; };
+		444C64E62C33B73600435922 /* pixivswiftWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 444C64E52C33B73600435922 /* pixivswiftWrapper */; };
+		444C64E82C33B73600435922 /* pixivauth in Frameworks */ = {isa = PBXBuildFile; productRef = 444C64E72C33B73600435922 /* pixivauth */; };
+		444C64EB2C33BCDA00435922 /* Erik in Frameworks */ = {isa = PBXBuildFile; productRef = 444C64EA2C33BCDA00435922 /* Erik */; };
+		444C64ED2C33D68400435922 /* LogginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444C64EC2C33D68200435922 /* LogginView.swift */; };
+		444C64F02C33DE6300435922 /* PaperFlow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 444C64EE2C33DE6300435922 /* PaperFlow.xcdatamodeld */; };
+		444C64F32C33DED500435922 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444C64F22C33DED500435922 /* CoreDataManager.swift */; };
+		444C64F52C33DFA500435922 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444C64F42C33DFA500435922 /* Token.swift */; };
+		444C64F92C33E18900435922 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444C64F82C33E18900435922 /* NSObject.swift */; };
+		444C65012C355FCD00435922 /* Notification+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444C65002C355FCD00435922 /* Notification+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +51,6 @@
 /* Begin PBXFileReference section */
 		44342B6E2C2A6CC8000A6754 /* PaperFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaperFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44342B712C2A6CC8000A6754 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44342B732C2A6CC8000A6754 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44342B752C2A6CC9000A6754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44342B782C2A6CCA000A6754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44342B7A2C2A6CCA000A6754 /* PaperFlow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PaperFlow.entitlements; sourceTree = "<group>"; };
@@ -45,6 +59,19 @@
 		44342B892C2A6CCA000A6754 /* PaperFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaperFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44342B8D2C2A6CCA000A6754 /* PaperFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperFlowUITests.swift; sourceTree = "<group>"; };
 		44342B8F2C2A6CCA000A6754 /* PaperFlowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperFlowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44342B9C2C2A6CFF000A6754 /* PerferencesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerferencesView.swift; sourceTree = "<group>"; };
+		44342B9D2C2A6CFF000A6754 /* WallpaperView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallpaperView.swift; sourceTree = "<group>"; };
+		44342BA02C2A6CFF000A6754 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		44342BA72C2A6D9F000A6754 /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		44342BA92C2A6DA4000A6754 /* GlobalSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalSettingsViewModel.swift; sourceTree = "<group>"; };
+		44342BAA2C2A6DA4000A6754 /* WallpaperViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperViewModel.swift; sourceTree = "<group>"; };
+		44342BAE2C2A72AC000A6754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		444C64EC2C33D68200435922 /* LogginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogginView.swift; sourceTree = "<group>"; };
+		444C64EF2C33DE6300435922 /* PaperFlow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PaperFlow.xcdatamodel; sourceTree = "<group>"; };
+		444C64F22C33DED500435922 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		444C64F42C33DFA500435922 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		444C64F82C33E18900435922 /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		444C65002C355FCD00435922 /* Notification+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +79,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				444C64E42C33B73600435922 /* pixivswift in Frameworks */,
+				444C64E62C33B73600435922 /* pixivswiftWrapper in Frameworks */,
+				444C64E82C33B73600435922 /* pixivauth in Frameworks */,
+				444C64EB2C33BCDA00435922 /* Erik in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,11 +126,17 @@
 		44342B702C2A6CC8000A6754 /* PaperFlow */ = {
 			isa = PBXGroup;
 			children = (
+				44342BAE2C2A72AC000A6754 /* Info.plist */,
+				444C64F12C33DEB700435922 /* Controllers */,
+				444C64F72C33E17100435922 /* Extensions */,
+				44342BAD2C2A6DC2000A6754 /* VIews */,
+				44342BA62C2A6D85000A6754 /* View Models */,
+				444C64F62C33DFA900435922 /* Models */,
 				44342B712C2A6CC8000A6754 /* AppDelegate.swift */,
-				44342B732C2A6CC8000A6754 /* ViewController.swift */,
 				44342B752C2A6CC9000A6754 /* Assets.xcassets */,
 				44342B772C2A6CCA000A6754 /* Main.storyboard */,
 				44342B7A2C2A6CCA000A6754 /* PaperFlow.entitlements */,
+				444C64EE2C33DE6300435922 /* PaperFlow.xcdatamodeld */,
 			);
 			path = PaperFlow;
 			sourceTree = "<group>";
@@ -121,6 +158,52 @@
 			path = PaperFlowUITests;
 			sourceTree = "<group>";
 		};
+		44342BA62C2A6D85000A6754 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				44342BA72C2A6D9F000A6754 /* ContentViewModel.swift */,
+				44342BA92C2A6DA4000A6754 /* GlobalSettingsViewModel.swift */,
+				44342BAA2C2A6DA4000A6754 /* WallpaperViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		44342BAD2C2A6DC2000A6754 /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				444C64EC2C33D68200435922 /* LogginView.swift */,
+				44342B9C2C2A6CFF000A6754 /* PerferencesView.swift */,
+				44342BA02C2A6CFF000A6754 /* MainWindowController.swift */,
+				44342B9D2C2A6CFF000A6754 /* WallpaperView.swift */,
+			);
+			path = VIews;
+			sourceTree = "<group>";
+		};
+		444C64F12C33DEB700435922 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				444C64F22C33DED500435922 /* CoreDataManager.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		444C64F62C33DFA900435922 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				444C64F42C33DFA500435922 /* Token.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		444C64F72C33E17100435922 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				444C64F82C33E18900435922 /* NSObject.swift */,
+				444C65002C355FCD00435922 /* Notification+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +220,12 @@
 			dependencies = (
 			);
 			name = PaperFlow;
+			packageProductDependencies = (
+				444C64E32C33B73600435922 /* pixivswift */,
+				444C64E52C33B73600435922 /* pixivswiftWrapper */,
+				444C64E72C33B73600435922 /* pixivauth */,
+				444C64EA2C33BCDA00435922 /* Erik */,
+			);
 			productName = PaperFlow;
 			productReference = 44342B6E2C2A6CC8000A6754 /* PaperFlow.app */;
 			productType = "com.apple.product-type.application";
@@ -185,7 +274,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					44342B6D2C2A6CC8000A6754 = {
 						CreatedOnToolsVersion = 15.4;
@@ -209,6 +298,10 @@
 				Base,
 			);
 			mainGroup = 44342B652C2A6CC8000A6754;
+			packageReferences = (
+				444C64E22C33B73600435922 /* XCRemoteSwiftPackageReference "pixivswift" */,
+				444C64E92C33BCDA00435922 /* XCRemoteSwiftPackageReference "Erik" */,
+			);
 			productRefGroup = 44342B6F2C2A6CC8000A6754 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -251,8 +344,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44342B742C2A6CC8000A6754 /* ViewController.swift in Sources */,
+				44342BA22C2A6CFF000A6754 /* WallpaperView.swift in Sources */,
+				44342BA82C2A6D9F000A6754 /* ContentViewModel.swift in Sources */,
+				44342BA52C2A6CFF000A6754 /* MainWindowController.swift in Sources */,
+				444C64ED2C33D68400435922 /* LogginView.swift in Sources */,
 				44342B722C2A6CC8000A6754 /* AppDelegate.swift in Sources */,
+				44342BA12C2A6CFF000A6754 /* PerferencesView.swift in Sources */,
+				444C64F02C33DE6300435922 /* PaperFlow.xcdatamodeld in Sources */,
+				444C64F52C33DFA500435922 /* Token.swift in Sources */,
+				44342BAB2C2A6DA4000A6754 /* GlobalSettingsViewModel.swift in Sources */,
+				444C65012C355FCD00435922 /* Notification+Extension.swift in Sources */,
+				444C64F92C33E18900435922 /* NSObject.swift in Sources */,
+				444C64F32C33DED500435922 /* CoreDataManager.swift in Sources */,
+				44342BAC2C2A6DA4000A6754 /* WallpaperViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +438,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -397,6 +502,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -427,9 +533,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = F6Q22UVSYB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PaperFlow/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "We need this permission to display the content";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -454,9 +563,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = F6Q22UVSYB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PaperFlow/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "We need this permission to display the content";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -475,10 +587,10 @@
 		44342B972C2A6CCA000A6754 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = F6Q22UVSYB;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -494,10 +606,10 @@
 		44342B982C2A6CCA000A6754 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = F6Q22UVSYB;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -513,9 +625,9 @@
 		44342B9A2C2A6CCA000A6754 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = F6Q22UVSYB;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
@@ -530,9 +642,9 @@
 		44342B9B2C2A6CCA000A6754 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = F6Q22UVSYB;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
@@ -584,6 +696,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		444C64E22C33B73600435922 /* XCRemoteSwiftPackageReference "pixivswift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/theBreadCompany/pixivswift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		444C64E92C33BCDA00435922 /* XCRemoteSwiftPackageReference "Erik" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/phimage/Erik.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		444C64E32C33B73600435922 /* pixivswift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 444C64E22C33B73600435922 /* XCRemoteSwiftPackageReference "pixivswift" */;
+			productName = pixivswift;
+		};
+		444C64E52C33B73600435922 /* pixivswiftWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 444C64E22C33B73600435922 /* XCRemoteSwiftPackageReference "pixivswift" */;
+			productName = pixivswiftWrapper;
+		};
+		444C64E72C33B73600435922 /* pixivauth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 444C64E22C33B73600435922 /* XCRemoteSwiftPackageReference "pixivswift" */;
+			productName = pixivauth;
+		};
+		444C64EA2C33BCDA00435922 /* Erik */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 444C64E92C33BCDA00435922 /* XCRemoteSwiftPackageReference "Erik" */;
+			productName = Erik;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		444C64EE2C33DE6300435922 /* PaperFlow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				444C64EF2C33DE6300435922 /* PaperFlow.xcdatamodel */,
+			);
+			currentVersion = 444C64EF2C33DE6300435922 /* PaperFlow.xcdatamodel */;
+			path = PaperFlow.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 44342B662C2A6CC8000A6754 /* Project object */;
 }
