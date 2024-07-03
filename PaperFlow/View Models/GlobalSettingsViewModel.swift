@@ -7,7 +7,6 @@
 
 import Foundation
 import pixivswift
-import Erik
 import pixivauth
 import WebKit
 

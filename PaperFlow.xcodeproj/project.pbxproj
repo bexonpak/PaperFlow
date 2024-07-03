@@ -22,7 +22,6 @@
 		444C64E42C33B73600435922 /* pixivswift in Frameworks */ = {isa = PBXBuildFile; productRef = 444C64E32C33B73600435922 /* pixivswift */; };
 		444C64E62C33B73600435922 /* pixivswiftWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 444C64E52C33B73600435922 /* pixivswiftWrapper */; };
 		444C64E82C33B73600435922 /* pixivauth in Frameworks */ = {isa = PBXBuildFile; productRef = 444C64E72C33B73600435922 /* pixivauth */; };
-		444C64EB2C33BCDA00435922 /* Erik in Frameworks */ = {isa = PBXBuildFile; productRef = 444C64EA2C33BCDA00435922 /* Erik */; };
 		444C64ED2C33D68400435922 /* LogginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444C64EC2C33D68200435922 /* LogginView.swift */; };
 		444C64F02C33DE6300435922 /* PaperFlow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 444C64EE2C33DE6300435922 /* PaperFlow.xcdatamodeld */; };
 		444C64F32C33DED500435922 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444C64F22C33DED500435922 /* CoreDataManager.swift */; };
@@ -82,7 +81,6 @@
 				444C64E42C33B73600435922 /* pixivswift in Frameworks */,
 				444C64E62C33B73600435922 /* pixivswiftWrapper in Frameworks */,
 				444C64E82C33B73600435922 /* pixivauth in Frameworks */,
-				444C64EB2C33BCDA00435922 /* Erik in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +222,6 @@
 				444C64E32C33B73600435922 /* pixivswift */,
 				444C64E52C33B73600435922 /* pixivswiftWrapper */,
 				444C64E72C33B73600435922 /* pixivauth */,
-				444C64EA2C33BCDA00435922 /* Erik */,
 			);
 			productName = PaperFlow;
 			productReference = 44342B6E2C2A6CC8000A6754 /* PaperFlow.app */;
@@ -300,7 +297,6 @@
 			mainGroup = 44342B652C2A6CC8000A6754;
 			packageReferences = (
 				444C64E22C33B73600435922 /* XCRemoteSwiftPackageReference "pixivswift" */,
-				444C64E92C33BCDA00435922 /* XCRemoteSwiftPackageReference "Erik" */,
 			);
 			productRefGroup = 44342B6F2C2A6CC8000A6754 /* Products */;
 			projectDirPath = "";
@@ -706,14 +702,6 @@
 				minimumVersion = 1.1.0;
 			};
 		};
-		444C64E92C33BCDA00435922 /* XCRemoteSwiftPackageReference "Erik" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/phimage/Erik.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.1.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -731,11 +719,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 444C64E22C33B73600435922 /* XCRemoteSwiftPackageReference "pixivswift" */;
 			productName = pixivauth;
-		};
-		444C64EA2C33BCDA00435922 /* Erik */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 444C64E92C33BCDA00435922 /* XCRemoteSwiftPackageReference "Erik" */;
-			productName = Erik;
 		};
 /* End XCSwiftPackageProductDependency section */
 
